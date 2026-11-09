@@ -1,0 +1,36 @@
+{
+  "name": "pi-deepseek-offpeak-clock",
+  "version": "0.1.0",
+  "description": "A pi extension that shows whether DeepSeek's off-peak (discounted) pricing window is currently active.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Stoyan Krastev",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "deepseek",
+    "off-peak",
+    "pricing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skkdevcraft/pi-deepseek-offpeak-clock.git"
+  },
+  "homepage": "https://github.com/skkdevcraft/pi-deepseek-offpeak-clock#readme",
+  "bugs": {
+    "url": "https://github.com/skkdevcraft/pi-deepseek-offpeak-clock/issues"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/deepseek-off-peak.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
